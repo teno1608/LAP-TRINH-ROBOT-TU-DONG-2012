@@ -1,0 +1,5 @@
+>>> Warning 216 "lttudong20mhz.c" Line 143(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "lttudong20mhz.c" Line 143(1,2): Interrupts disabled during call to prevent re-entrancy:  (beep)
+      Memory usage:   ROM=33%      RAM=13% - 17%
+      0 Errors,  2 Warnings.
+Build Successful.

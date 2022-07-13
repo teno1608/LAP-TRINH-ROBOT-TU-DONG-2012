@@ -1,0 +1,16 @@
+ÀÄ14-3
+   ÃÄMAIN  0/286  Ram=1
+   ³  ÃÄ??0??
+   ³  ÃÄbeep  0/38  Ram=4
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@SPI_XFER_1_16  0/30  Ram=4
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@SPI_XFER_1_16  0/30  Ram=4
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@SPI_XFER_1_16  0/30  Ram=4
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÀÄ@SPI_XFER_1_16  0/30  Ram=4
+   ÃÄEXT1_L2H_isr  0/64  Ram=0
+   ÃÄEXT2_isr  0/64  Ram=0
+   ÀÄngat_timer1  0/14  Ram=0

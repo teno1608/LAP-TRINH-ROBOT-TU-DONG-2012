@@ -1,0 +1,67 @@
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+Library=
+LinkerScript=
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=lttudong20mhz.hex
+Development_Mode=
+Processor_Text=PIC18F4431
+ToolSuite=CCS
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=lttudong20mhz.c
+[lttudong20mhz.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=lttudong20mhz.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[CompilerVersion]
+Fixed=
+[Opened Files]
+1=lttudong20mhz.c
+2=nhiemvu3x.c
+3=resetvan.c
+4=
+5=van-ctht.c
+6=nhiemvu3x.c
+7=resetvan.c
+8=
+9=
+[Units]
+Count=1
+1=lttudong20mhz (main)
+[Documentation]
+1=F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong5-4\san xanh\tudong20mhz\lttudong20mhz Notes.txt
+1T=lttudong20mhz Notes.txt
+1E=
+1W=0
+Count=1

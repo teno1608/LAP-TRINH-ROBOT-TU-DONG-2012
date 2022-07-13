@@ -1,0 +1,2 @@
+>>> Warning 216 "lttudong20mhz.c" Line 143(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "lttudong20mhz.c" Line 143(1,2): Interrupts disabled during call to prevent re-entrancy:  (beep)

@@ -1,0 +1,49 @@
+
+ROM used: 248 (2%)
+          248 (2%) including unused fragments
+
+          0 Average locations per line
+          0 Average locations per statement
+
+RAM used: 13 (2%) at main() level
+          14 (2%) worst case
+
+Stack used: 1 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  176    73  11  thumach.c
+  487     0   0  C:\Program Files (x86)\PICC\Devices\18F4431.h
+  431     0   0  PIC18F4431_registers.h
+ 1273   359  56  C:\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+  409   121  19  C:\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+  411    91  14  C:\Program Files (x86)\PICC\Drivers\lcd.c
+----- -----
+ 3247   644 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   8   1             @delay_ms1
+0    206  42   1   632  3.8  MAIN
+
+Program metrics:
+    Functions               1
+    Statements              644
+    Comments                1000
+    Volume (V)              635
+    Difficilty (D)          3.8
+    Effort to implement (E) 2395
+    Time to implement (T)   2 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    -15
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-03FFE   244  16136  
+
+
+

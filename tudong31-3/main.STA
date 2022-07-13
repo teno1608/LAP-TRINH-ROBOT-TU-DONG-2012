@@ -1,0 +1,48 @@
+
+ROM used:   108/16384 (1%)
+            108/16384 (1%) including unused fragments
+
+            0.1 Average locations per line
+            10.8 Average locations per statement
+
+RAM used:   4/768 (1%) at main() level
+            9/768 (1%) worst case
+
+Stack used: 2 worst case (2 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   29    10 100  main.c
+   12     0   0  main.h
+  892     0   0  C:\Program Files (x86)\PICC\Devices\18F4431.h
+  531     0   0  PIC18F4431_registers.h
+----- -----
+ 1464    10 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38  18    1   223  4.5  @delay_ms1
+0     38  18    4   223  4.5  beep
+0     28  13    0    42  1.7  MAIN
+ Inline         0   371  8.2  @cinit1
+
+Program metrics:
+    Functions               4
+    Statements              10
+    Comments                160
+    Volume (V)              1168
+    Difficulty (D)          19.2
+    Effort to implement (E) 22449
+    Time to implement (T)   21 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   4
+    Maintainability (MI)    108
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-03FFE   104  16276  
+
+
+

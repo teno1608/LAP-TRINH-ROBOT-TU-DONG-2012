@@ -1,0 +1,86 @@
+
+ROM used:   6560/16384 (40%)
+            6560/16384 (40%) including unused fragments
+
+            1.6 Average locations per line
+            5.0 Average locations per statement
+
+RAM used:   99/768 (13%) at main() level
+            128/768 (17%) worst case
+
+Stack used: 7 worst case (4 in main + 3 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  124    98   8  ltrobottd.c
+   72    29   2  khoidong.c
+  892     0   0  C:\Program Files (x86)\PICC\Devices\18F4431.h
+  531     0   0  PIC18F4431_registers.h
+ 1351   359  28  C:\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+  423     0   0  C:\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+   37     0   0  C:\Program Files (x86)\PICC\Drivers\stdio.h
+   39     7   1  van-ctht.c
+   82    36   3  dongco.c
+   98    80   6  qei_piddc.c
+   65   108   8  resetvan.c
+   31    74   6  nhiemvu2.c
+  158   198  15  nhiemvu3.c
+  154   190  15  nhiemvu3x.c
+  103   125  10  nhiemvu4.c
+----- -----
+ 4220  1304 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0    242   2   11             @MULFF
+0    618   5   16             @ADDFF
+0     40   0    1             @delay_ms1
+0    110   1    0   862  2.9  khoidong
+0     36   0    4   223  4.5  beep
+0     66   1    2   167  2.3  dc1t
+0     66   1    2   167  2.3  dc1n
+0     30   0    0   154  2.2  resetdc1
+0     66   1    2   167  2.3  dc2n
+0     66   1    2   167  2.3  dc2t
+0     30   0    0   154  2.2  resetdc2
+0     68   1    0   183  3.4  EXT1_L2H_isr
+0     68   1    0   183  3.4  EXT2_isr
+0    580   4    8   865  6.5  piddc1
+0     72   1    2             @SITOF
+0     56   0    4             @SFTOI
+0    558   4    8   859  6.5  piddc2
+0     70   1    1   399  4.7  ngat_timer0
+0    134   1    0   407  4.2  ngat_timer1
+0     34   0    0             @goto11969
+0     90   1    0   386  4.2  ngat_timer5
+0    374   3    1  1595  5.4  resetvan
+0   1054   8    2  4397  5.9  nhiemvu3
+0   1072   8    2  4165  5.9  nhiemvu3x
+0    408   3    2  2102  4.9  nhiemvu4
+0    358   3    1  1090  4.9  MAIN
+ Inline         0  1090  4.9  @cinit1
+
+Program metrics:
+    Functions               21
+    Statements              1304
+    Comments                957
+    Volume (V)              30798
+    Difficulty (D)          87.1
+    Effort to implement (E) 2683917
+    Time to implement (T)   41 hours, 25 minutes
+    Est Delivered Bugs (B)  6
+    Cyclomatic Complexity   73
+    Maintainability (MI)    22
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000C4   190  0  
+000C6-03FFE  6366  9820  
+
+
+

@@ -1,0 +1,4 @@
+*** Error 128 "F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong29-3\tudong40mhz\tudong\khoidong.c" Line 3(10,17): A #DEVICE required before this line
+--- Info 300 "F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong29-3\tudong40mhz\tudong\khoidong.c" Line 24(15,16): More info:   ** I/O error 131
+      1 Errors,  0 Warnings.
+Build Failed.

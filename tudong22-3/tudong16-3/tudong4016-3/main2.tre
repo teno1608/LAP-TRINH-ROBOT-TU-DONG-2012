@@ -1,0 +1,34 @@
+ÀÄmain2
+   ÀÄMAIN  0/122  Ram=0
+      ÃÄ??0??
+      ÃÄbeep  0/36  Ram=4
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÃÄdoctayPES  0/304  Ram=1
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÃÄaccess  0/148  Ram=3
+      ³  ÀÄaccess  0/148  Ram=3
+      ÃÄbeep  0/36  Ram=4
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÃÄbeep  0/36  Ram=4
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÃÄbeep  0/36  Ram=4
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÃÄbeep  0/36  Ram=4
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÃÄbeep  0/36  Ram=4
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÀÄbeep  0/36  Ram=4
+         ÃÄ@delay_ms1  0/40  Ram=1
+         ÀÄ@delay_ms1  0/40  Ram=1

@@ -1,0 +1,75 @@
+
+ROM used: 4156 (25%)
+          4156 (25%) including unused fragments
+
+          2 Average locations per line
+          8 Average locations per statement
+
+RAM used: 58 (8%) at main() level
+          102 (13%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  336   404  82  thutd10-1.c
+  487     0   0  C:\Program Files (x86)\PICC\devices\18F4431.h
+  431     0   0  PIC18F4431_registers.h
+  411    91  18  C:\Program Files (x86)\PICC\drivers\lcd.c
+----- -----
+ 1665   495 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   0   1             @delay_ms1
+0     20   0   0             @const500
+0     78   1   3   751  4.5  lcd_read_byte
+0     82   1   2   254  3.7  lcd_read_nibble
+0     68   1   1   391  2.4  lcd_send_nibble
+0     70   1   3   402  3.6  lcd_send_byte
+0    108   1   2   754  5.0  lcd_init
+0     34   0   4   191  5.8  lcd_gotoxy
+0     82   1   1   354  4.7  lcd_putc
+0    844  10  30   792  4.5  lcd_putnum
+0    142   2  13             @DIV3232
+0     84   1  14             @MUL3232
+0     26   0   1    72  3.0  ngatngoai1
+0     26   0   1    72  3.0  ngatngoai2
+0     16   0   0    48  1.1  setint
+0    152   2   3  1013  6.0  access
+0    310   4   1  1615  2.9  doctayPES
+0     68   1   2   167  2.3  dcpt
+0     68   1   2   167  2.3  dcpn
+0     32   0   0   154  2.2  resetdcp
+0     68   1   2   174  2.3  dctt
+0     68   1   2   174  2.3  dctn
+0     32   0   0   154  2.2  resetdct
+0   1368  16   1  7772  5.0  MAIN
+0     10   0   0             @const630
+0     32   0   2             @PSTRINGC_518
+0     12   0   0             @const632
+0     12   0   0             @const633
+0     12   0   0             @const634
+0     12   0   0             @const635
+
+Program metrics:
+    Functions               20
+    Statements              495
+    Comments                245
+    Volume (V)              22865
+    Difficilty (D)          70.1
+    Effort to implement (E) 1603783
+    Time to implement (T)   24 hours, 45 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   46
+    Maintainability (MI)    44
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000B8   178  0  
+000BA-03FFE  3974  12224  
+
+
+

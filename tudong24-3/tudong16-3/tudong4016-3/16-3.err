@@ -1,0 +1,5 @@
+>>> Warning 216 "16-3.c" Line 97(0,1): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "16-3.c" Line 97(0,1): Interrupts disabled during call to prevent re-entrancy:  (beep)
+>>> Warning 202 "F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong24-3\tudong16-3\tudong4016-3\nhiemvu4.c" Line 3(6,10): Variable never used:   deml
+      Memory usage:   ROM=23%      RAM=12% - 16%
+      0 Errors,  3 Warnings.

@@ -1,0 +1,58 @@
+
+ROM used: 1222 (7%)
+          1222 (7%) including unused fragments
+
+          0 Average locations per line
+          2 Average locations per statement
+
+RAM used: 36 (5%) at main() level
+          38 (5%) worst case
+
+Stack used: 2 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  308   196  35  10-3.c
+  487     0   0  C:\Program Files (x86)\PICC\Devices\18F4431.h
+  431     0   0  PIC18F4431_registers.h
+ 1273   359  65  C:\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+  409     0   0  C:\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+   37     0   0  C:\Program Files (x86)\PICC\Drivers\stdio.h
+----- -----
+ 3005   555 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   2   1             @delay_ms1
+0     68   3   2   167  2.3  dc1t
+0     68   3   2   167  2.3  dc1n
+0     30   1   0   154  2.2  resetdc1
+0     68   3   2   167  2.3  dc2n
+0     68   3   2   167  2.3  dc2t
+0     30   1   0   154  2.2  resetdc2
+0     20   1   0    88  1.7  beep
+0    148   6   3  1013  6.0  access
+0    310  13   1  1615  2.9  doctaypes
+0    368  15   1  2438  3.9  MAIN
+
+Program metrics:
+    Functions               10
+    Statements              555
+    Comments                695
+    Volume (V)              8683
+    Difficilty (D)          28.8
+    Effort to implement (E) 249689
+    Time to implement (T)   3 hours, 51 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   23
+    Maintainability (MI)    87
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-03FFE  1218  15162  
+
+
+

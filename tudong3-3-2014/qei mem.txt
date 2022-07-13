@@ -1,0 +1,55 @@
+signed int16 En2;
+
+#INT_EXT1
+void  EXT1_L2H_isr(void) 
+{
+INTEDG1^=1;
+if (input(ChanelA))
+   {
+   if (input(ChanelB)) {En2--;} 
+   else {En2++;}
+   }
+else 
+   { 
+   if (input(ChanelB)) {En2++;}
+   else {En2--;}
+   }
+}
+
+
+#int_EXT2
+void  EXT2_isr(void) 
+{
+INTEDG2^=1;
+if (input(ChanelB))
+   {
+   if (input(ChanelA)) {En2++;} 
+   else {En2--;}
+   }
+else 
+   { 
+   if (input(ChanelA)) {En2--;} 
+   else {En2++;}
+   }
+
+
+}
+
+///////// 2 PHA
+signed int16 En2;
+
+#INT_EXT1
+void  EXT1_L2H_isr(void) 
+{
+INTEDG1^=1;
+if (INTEDG1)
+   {
+   if (input(ChanelB)) {En2++;} 
+   else {En2--;}
+   }
+else 
+   { 
+   if (input(ChanelB)) {En2--;}
+   else {En2++;}
+   }
+}

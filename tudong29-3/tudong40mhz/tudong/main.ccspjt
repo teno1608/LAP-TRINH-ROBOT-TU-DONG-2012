@@ -1,0 +1,19 @@
+[PROJECT]
+Target=F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong29-3\tudong40mhz\tudong\main.hex
+Processor_Text=PIC18F4431
+CCSVerions=5.015
+Compiler=PCH
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong29-3\tudong40mhz\tudong\main]
+Type=4
+[mru-list]
+1=main.c
+[Units]
+Count=1
+1=main (main)
+[Opened Files]
+1=main.c
+2=

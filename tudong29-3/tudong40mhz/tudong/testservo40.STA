@@ -1,0 +1,50 @@
+
+ROM used:   380/16384 (2%)
+            380/16384 (2%) including unused fragments
+
+            0.3 Average locations per line
+            12.3 Average locations per statement
+
+RAM used:   25/768 (3%) at main() level
+            29/768 (4%) worst case
+
+Stack used: 3 worst case (2 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   70    31 100  testservo40.c
+  892     0   0  C:\Program Files (x86)\PICC\Devices\18F4431.h
+  531     0   0  PIC18F4431_registers.h
+----- -----
+ 1493    31 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   5    1   485  7.8  @delay_ms1
+0     36   5    0   149  3.1  ngat_timer0
+0     36   5    4   223  4.5  beep
+0    122  16    1   391  3.3  MAIN
+ Inline         0   231  6.6  @cinit1
+
+Program metrics:
+    Functions               5
+    Statements              31
+    Comments                161
+    Volume (V)              2110
+    Difficulty (D)          25.2
+    Effort to implement (E) 53263
+    Time to implement (T)   49 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   8
+    Maintainability (MI)    139
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-03FFE   234  16000  
+
+
+

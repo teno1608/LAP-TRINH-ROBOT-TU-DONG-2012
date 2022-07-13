@@ -1,0 +1,42 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+PES                                                               0x0500       6
+analog                                                            0x0506       1
+L1                                                                0x0507       1
+R1                                                                0x0508       1
+L2                                                                0x0509       1
+R2                                                                0x050A       1
+L                                                                 0x050B       1
+R                                                                 0x050C       1
+start                                                             0x050D       1
+select                                                            0x050E       1
+up                                                                0x050F       1
+down                                                              0x0510       1
+left                                                              0x0511       1
+right                                                             0x0512       1
+nut3                                                              0x0513       1
+nut2                                                              0x0514       1
+nut4                                                              0x0515       1
+nut1                                                              0x0516       1
+ENDATA1                                                           0x0517       4
+ENDATA2                                                           0x051B       4
+ERR1                                                              0x051F       4
+REALVT1                                                           0x0523       4
+ERR2                                                              0x0527       4
+REALVT2                                                           0x052B       4
+SETVT1                                                            0x052F       4
+SETVT2                                                            0x0533       4
+_base_y                                                           0x0537       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+i                                                                 R5           1
+_lcd_x                                                            R4           1
+_lcd_y                                                            R7           1
+_lcd_maxx                                                         R6           1
