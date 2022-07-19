@@ -52,13 +52,13 @@ Fixed=
 3=resetvan.c
 4=dongco.c
 5=qei_piddc.c
-6=
-7=van-ctht.c
+6=khoidong.c
+7=
 8=nhiemvu3x.c
 9=
 
 [ProjectLog]
-Days=7
+Days=8
 D1=25-01-2018
 D1_L=2
 D1_L1=[81775]Project Opened.
@@ -87,6 +87,10 @@ D7=13-07-2022
 D7_L=2
 D7_L1=[75275]Project Opened.
 D7_L2=[75356]Project Closed.
+D8=19-07-2022
+D8_L=2
+D8_L1=[38426]Project Opened.
+D8_L2=[38475]Project Closed.
 [Units]
 Count=1
 1=lttudong20mhz (main)

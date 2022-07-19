@@ -15,13 +15,13 @@ Lines Stmts  %   Files
 ----- ----- ---  -----
   144    98   8  lttudong20mhz.c
    21     0   0  lttudong20mhz.h
-  892     0   0  C:\Program Files (x86)\PICC\Devices\18F4431.h
+  892     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4431.h
   531     0   0  PIC18F4431_registers.h
- 1351   359  28  C:\Program Files (x86)\PICC\Drivers\stdlib.h
-   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
-  423     0   0  C:\Program Files (x86)\PICC\Drivers\string.h
-   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
-   37     0   0  C:\Program Files (x86)\PICC\Drivers\stdio.h
+ 1351   359  28  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  423     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+   37     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdio.h
    73    29   2  khoidong.c
    43     7   1  van-ctht.c
    83    36   3  dongco.c

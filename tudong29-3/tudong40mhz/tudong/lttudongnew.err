@@ -1,7 +1,0 @@
->>> Warning 205 "F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong29-3\tudong40mhz\tudong\nhiemvu3.c" Line 52(1,1): Unsigned variable is never less than zero
->>> Warning 216 "lttudongnew.c" Line 121(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
->>> Warning 216 "lttudongnew.c" Line 121(1,2): Interrupts disabled during call to prevent re-entrancy:  (beep)
->>> Warning 202 "F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong29-3\tudong40mhz\tudong\nhiemvu4.c" Line 4(6,10): Variable never used:   deml
-      Memory usage:   ROM=34%      RAM=12% - 15%
-      0 Errors,  4 Warnings.
-Build Successful.

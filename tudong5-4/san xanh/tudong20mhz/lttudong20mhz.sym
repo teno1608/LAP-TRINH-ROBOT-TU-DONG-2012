@@ -22,88 +22,93 @@
 014     @INTERRUPT_AREA
 015     @INTERRUPT_AREA
 016     @INTERRUPT_AREA
-017-018 strtok.save
-019-01C _Randseed
-01D-01E En2
-01F-022 kp
-023-026 ki
-027-02A kd
-02B-02E pid1
-02F-032 pid2
-033-034 realvt1
-035-036 errs1
-037-038 err1
-039-03A delta1
-03B-03C epre1
-03D-03E duty1
-03F-040 realvt2
-041-042 errs2
-043-044 err2
-045-046 delta2
-047-048 epre2
-049-04A duty2
-04B-04C Ti1
-04D-04E Ti2
-04F-050 setvt1
-051-052 setvt2
-053-054 vt1
-055-056 vt2
-057     demct
-058     demservo
-059     xungleo
-05A.0   dclep
-05B-05C demvanduoi
-05D     chonpid
-05E     ire
-05F     inv3
-060     inv3x
-061     i
-062     nhiemvu4.inv4
-062-063 dc2n.x
-062-063 dc1t.x
-062-063 dc1n.x
-062-063 dc2t.x
-062     resetvan.@SCRATCH1
-062     nhiemvu2.@SCRATCH1
-062     nhiemvu3x.@SCRATCH1
-062     MAIN.@SCRATCH1
-063     nhiemvu3x.@SCRATCH2
-063     nhiemvu4.@SCRATCH1
-068-069 piddc2.setvt2
-068     beep.solan
-068-069 piddc1.setvt1
-068     ngat_timer0.@SCRATCH1
-069     beep.time
-06A-06B piddc1.vt1
-06A     beep.i
-06A-06B piddc2.vt2
-06B     beep.@SCRATCH1
-06C-06F @SFTOI.P1
-06C     @delay_ms1.P2
-06C     piddc1.@SCRATCH1
-06C     piddc2.@SCRATCH1
-06D     piddc1.@SCRATCH2
-06D     piddc2.@SCRATCH2
-06E     piddc1.@SCRATCH3
-06E     piddc2.@SCRATCH3
-06F     piddc1.@SCRATCH4
-06F     piddc2.@SCRATCH4
-070-071 @SITOF.P1
-070-073 @MULFF.P2
-070-073 @ADDFF.P3
-074-077 @MULFF.P1
-074-077 @ADDFF.P2
-078     @MULFF.@SCRATCH1
-078     @ADDFF.@SCRATCH1
-079     @MULFF.@SCRATCH2
-079     @ADDFF.@SCRATCH2
-07A     @MULFF.@SCRATCH3
-07A     @ADDFF.@SCRATCH3
-07B     @ADDFF.@SCRATCH4
-07C     @ADDFF.@SCRATCH5
-07D     @ADDFF.@SCRATCH6
-07E     @ADDFF.@SCRATCH7
-07F     @ADDFF.@SCRATCH8
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     @INTERRUPT_AREA
+01A-01B strtok.save
+01C-01F _Randseed
+020-021 En2
+022-025 kp
+026-029 ki
+02A-02D kd
+02E-031 pid1
+032-035 pid2
+036-037 realvt1
+038-039 errs1
+03A-03B err1
+03C-03D delta1
+03E-03F epre1
+040-041 duty1
+042-043 realvt2
+044-045 errs2
+046-047 err2
+048-049 delta2
+04A-04B epre2
+04C-04D duty2
+04E-04F Ti1
+050-051 Ti2
+052-053 setvt1
+054-055 setvt2
+056-057 vt1
+058-059 vt2
+05A     demct
+05B     demservo
+05C     xungleo
+05D.0   dclep
+05E-05F demvanduoi
+060     chonpid
+061     ire
+062     inv3
+063     inv3x
+064     i
+065     nhiemvu4.inv4
+065-066 dc2n.x
+065-066 dc1t.x
+065-066 dc1n.x
+065-066 dc2t.x
+065     resetvan.@SCRATCH1
+065     nhiemvu2.@SCRATCH1
+065     nhiemvu3x.@SCRATCH1
+065     MAIN.@SCRATCH1
+066     nhiemvu3x.@SCRATCH2
+066     nhiemvu4.@SCRATCH1
+06B-06C piddc2.setvt2
+06B-06C piddc1.setvt1
+06B     beep.solan
+06B     EXT1_L2H_isr.@SCRATCH1
+06B     EXT2_isr.@SCRATCH1
+06B     ngat_timer0.@SCRATCH1
+06C     beep.time
+06D     beep.i
+06D-06E piddc1.vt1
+06D-06E piddc2.vt2
+06E     beep.@SCRATCH1
+06F     @delay_ms1.P1
+06F-072 @SFTOI.P2
+06F     piddc1.@SCRATCH1
+06F     piddc2.@SCRATCH1
+070     piddc1.@SCRATCH2
+070     piddc2.@SCRATCH2
+071     piddc1.@SCRATCH3
+071     piddc2.@SCRATCH3
+072     piddc1.@SCRATCH4
+072     piddc2.@SCRATCH4
+073-074 @SITOF.P1
+073-076 @ADDFF.P2
+073-076 @MULFF.P3
+077-07A @ADDFF.P1
+077-07A @MULFF.P2
+07B     @MULFF.@SCRATCH1
+07B     @ADDFF.@SCRATCH1
+07C     @MULFF.@SCRATCH2
+07C     @ADDFF.@SCRATCH2
+07D     @MULFF.@SCRATCH3
+07D     @ADDFF.@SCRATCH3
+07E     @ADDFF.@SCRATCH4
+07F     @ADDFF.@SCRATCH5
+080     @ADDFF.@SCRATCH6
+081     @ADDFF.@SCRATCH7
+082     @ADDFF.@SCRATCH8
 F60     DFLTCON
 F60.0   FLTCK0
 F60.1   FLTCK1
@@ -655,61 +660,61 @@ FFE     TOS
 FFF     TOSU
 
 ROM Allocation:
-0000C6  EXT1_L2H_isr
-00010A  EXT2_isr
-00014E  ngat_timer0
-000194  resetdc1
-0001B2  resetdc2
-0001D0  @SITOF
-000218  @MULFF
-00030A  @ADDFF
-000574  @SFTOI
-0005AC  piddc1
-0007F0  piddc2
-000A1E  ngat_timer1
-000AA4  @goto11969
-000AC6  @delay_ms1
-000AEC  beep
-000B10  ngat_timer5
-000B6A  khoidong
-000BDA  dc1t
-000C1C  dc2t
-000C5E  resetvan
-000DCC  nhiemvu2
-000E60  dc2n
-000EA2  dc1n
-000EE4  nhiemvu3x
-001318  nhiemvu4
-0014B8  @cinit1
-0014B8  MAIN
-001538  @cinit2
+0000DE  EXT1_L2H_isr
+000120  EXT2_isr
+000162  ngat_timer0
+0001A8  resetdc1
+0001C6  resetdc2
+0001E4  @SITOF
+00022C  @MULFF
+00031E  @ADDFF
+000588  @SFTOI
+0005C0  piddc1
+000804  piddc2
+000A32  ngat_timer1
+000AB8  @goto11973
+000ADA  @delay_ms1
+000B00  beep
+000B24  ngat_timer5
+000B7E  khoidong
+000BEE  dc1t
+000C30  dc2t
+000C72  resetvan
+000DE0  nhiemvu2
+000E74  dc2n
+000EB6  dc1n
+000EF8  nhiemvu3x
+00132C  nhiemvu4
+0014CC  @cinit1
+0014CC  MAIN
+00154C  @cinit2
 0136  StrtoulGO
 0136  StrtolGO
 
 Project Directory:
-    F:\Robocon 2014\Lap trinh design\LAP TRINH ROBOT TU DONG\tudong5-4\san xanh\tudong20mhz\
+    C:\Users\Fairy11\Desktop\New folder\LAP-TRINH-ROBOT-TU-DONG-2014\tudong5-4\san xanh\tudong20mhz\
 
 Project Files:
-    lttudong20mhz.c                                         [03-Apr-14 10:05  CRC=B17B7CEF]
-    lttudong20mhz.h                                         [01-Apr-14 23:23  CRC=6AE962BB]
-    C:\Program Files (x86)\PICC\Devices\18F4431.h           [12-Nov-13 14:35  CRC=82CE54B8]
-    PIC18F4431_registers.h                                  [30-Mar-14 23:37  CRC=25084AFA]
-    C:\Program Files (x86)\PICC\Drivers\stdlib.h            [08-Jun-11 14:39  CRC=0B6669CF]
-    C:\Program Files (x86)\PICC\Drivers\stddef.h            [16-Jul-10 09:27  CRC=897CEC6C]
-    C:\Program Files (x86)\PICC\Drivers\string.h            [14-Jul-11 10:13  CRC=23EDEC8F]
-    C:\Program Files (x86)\PICC\Drivers\ctype.h             [03-Jan-08 13:55  CRC=2D1F019F]
-    C:\Program Files (x86)\PICC\Drivers\stdio.h             [31-Jul-07 13:24  CRC=4E4534F4]
-    khoidong.c                                              [02-Apr-14 06:37  CRC=FF83F3C7]
-    van-ctht.c                                              [02-Apr-14 06:38  CRC=2FB8C65A]
-    dongco.c                                                [31-Mar-14 10:41  CRC=320D3B10]
-    qei_piddc.c                                             [30-Mar-14 23:35  CRC=4E311494]
-    resetvan.c                                              [05-Apr-14 08:41  CRC=48B534C5]
-    nhiemvu2.c                                              [01-Apr-14 22:11  CRC=2810E308]
-    nhiemvu3.c                                              [03-Apr-14 10:33  CRC=497EE90D]
-    nhiemvu3x.c                                             [05-Apr-14 10:53  CRC=7E9CB3FF]
-    nhiemvu4.c                                              [03-Apr-14 11:16  CRC=7B0AF953]
+    lttudong20mhz.c                                         [19-Jul-22 10:31  CRC=B17B7CEF]
+    lttudong20mhz.h                                         [19-Jul-22 10:31  CRC=6AE962BB]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4431.h [18-Apr-14 16:57  CRC=FA68B727]
+    PIC18F4431_registers.h                                  [19-Jul-22 10:31  CRC=25084AFA]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h [08-Jun-11 14:39  CRC=0B6669CF]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h [16-Jul-10 09:27  CRC=897CEC6C]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h [10-Apr-14 09:04  CRC=662B2714]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h [03-Jan-08 13:55  CRC=2D1F019F]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdio.h [31-Jul-07 13:24  CRC=4E4534F4]
+    khoidong.c                                              [19-Jul-22 10:31  CRC=FF83F3C7]
+    van-ctht.c                                              [19-Jul-22 10:31  CRC=2FB8C65A]
+    dongco.c                                                [19-Jul-22 10:31  CRC=320D3B10]
+    qei_piddc.c                                             [19-Jul-22 10:31  CRC=4E311494]
+    resetvan.c                                              [19-Jul-22 10:31  CRC=48B534C5]
+    nhiemvu2.c                                              [19-Jul-22 10:31  CRC=2810E308]
+    nhiemvu3.c                                              [19-Jul-22 10:31  CRC=497EE90D]
+    nhiemvu3x.c                                             [19-Jul-22 10:31  CRC=7E9CB3FF]
+    nhiemvu4.c                                              [19-Jul-22 10:31  CRC=7B0AF953]
 
-Source signature=D6E3A9FD
+Source signature=90BB46F1
 
 Units:
     lttudong20mhz (main)
@@ -721,6 +726,7 @@ Compiler Settings:
     Opt Level:      9
     Short,Int,Long: UNSIGNED: 1,8,16
     Float,Double:   32,32
+    Compile Mode:       CCS5
 
 Output Files:
     XREF file:   lttudong20mhz.xsym

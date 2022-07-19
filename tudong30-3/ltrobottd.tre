@@ -124,11 +124,11 @@
    ³     ³  ÀÄ*
    ³     ÀÄbeep  0/36  Ram=4
    ³        ÀÄ*
-   ÃÄEXT1_L2H_isr  0/68  Ram=0
-   ÃÄEXT2_isr  0/68  Ram=0
+   ÃÄEXT1_L2H_isr  0/66  Ram=1
+   ÃÄEXT2_isr  0/66  Ram=1
    ÃÄngat_timer0  0/70  Ram=1
    ÃÄngat_timer1  0/134  Ram=0
-   ³  ÃÄ@goto11969  0/34  Ram=0
+   ³  ÃÄ@goto11973  0/34  Ram=0
    ³  ÃÄresetdc1  0/30  Ram=0
    ³  ÃÄresetdc2  0/30  Ram=0
    ³  ÃÄresetdc2  0/30  Ram=0

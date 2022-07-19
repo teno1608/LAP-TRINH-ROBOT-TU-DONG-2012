@@ -1,6 +1,0 @@
-青main
-   青MAIN  0/28  Ram=0
-      団@cinit1  (Inline)  Ram=0
-      青beep  0/38  Ram=4
-         団@delay_ms1  0/38  Ram=1
-         青@delay_ms1  0/38  Ram=1
